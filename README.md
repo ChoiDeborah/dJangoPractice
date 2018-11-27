@@ -1,4 +1,4 @@
 # dJangoPractice
 
 
-DebbieChoi.pythonanywhere.com
+DebbieChoi.pythonanywhere.com/admin
