@@ -11,16 +11,7 @@
         <div class= "page-header">
             <h1><a href="/">지민이의 장고 가지고 놀기</a></h1>
         </div>
-
-        {% for post in posts %}
-            <div class="post">
-                <p>published: {{ post.published_date }}</p>
-                <h1><a href="">{{ post.title }}</a></h1>
-                <p>{{ post.text|linebreaksbr }}</p>
-            </div>
-        {% endfor %}
-
-
+        
         <div class="content container">
                 <div class="row">
                     <div class="col-md-8">
@@ -36,5 +27,9 @@
                     </div>
                 </div>
         </div>
+
+
+
+      
     </body>
 </html>
